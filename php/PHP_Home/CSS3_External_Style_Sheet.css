@@ -1,0 +1,86 @@
+/* Society Logo Styling */
+.m{
+   color: gold;
+   font-size: 60px;
+}
+
+.b{
+   color: silver;
+   font-size: 60px;
+}
+
+.tm{
+   color: white;
+   font-size: 50px;
+}
+
+.logo{
+   background-color: black;
+   text-align: center;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+.ad{
+   font-style: oblique;
+   font-size: 70px;
+   color: chocolate;
+}
+
+.subs{
+   text-align: center;
+   font-size: 70px;
+}
+
+.firstletter:first-letter{
+    color: green;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+
+/* footer styling */
+.page_footer{
+   text-align: center;
+}
+
+.notepad{
+   padding: 50px 110px;
+   font-size: 50px;
+   background-color: rgb(236, 232, 167);
+   margin: auto 190px 50px  170px;
+}
+
+body{
+   background-image: url(MoneyBag.png) ;
+   background-attachment: unset;
+   background-repeat: no-repeat;
+   background-position: top;
+}
+
+/* login styling */
+
+.link1{
+  
+   
+   border-radius: 50px;
+   background-color: cyan;
+   padding-top: 50px;
+   padding-right: 50px;
+   padding-bottom: 50px;
+   padding-left: 50px;
+   margin-right: 17;
+   margin-left: 27;
+   
+ }
+
+ #linkText{
+   font-size:x-large;
+   color: black;
+   text-decoration-line:none ;
+ }
+
+ #text{
+   font-size: 25px;
+   text-align: center;
+ }

@@ -1,0 +1,1 @@
+alert ("Welcome To MoneyBag Official WebSite !!!");

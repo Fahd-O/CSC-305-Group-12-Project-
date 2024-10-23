@@ -1,0 +1,72 @@
+/* Society Logo Styling */
+.m{
+    color: gold;
+    font-size: 60px;
+ }
+ 
+ .b{
+    color: silver;
+    font-size: 60px;
+ }
+ 
+ .tm{
+    color: white;
+    font-size: 50px;
+ }
+ 
+ .logo{
+    background-color: black;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+ 
+
+.outline{
+    margin: 10px 10px 10px 10px; 
+    border: solid gold;
+    background-color: rgb(214, 254, 255);
+}
+
+
+.form{
+    width: 350px;
+}
+
+.box{
+    text-align: center; /* works on text within "fieldset" only */
+    padding-left: 35%;
+    padding-bottom: 22%;
+}
+
+.un{
+    font-size: 19px;
+}
+
+.pw{
+    font-size: 19px;
+}
+
+.loginbutton{
+    background-color: rgb(46, 250, 57);
+    width: 50%;
+    font-size: 19px;
+    margin: 0px;
+}
+
+.signupbutton{
+    background-color: rgb(46, 250, 57);
+    width: 50%;
+    font-size: 19px;
+    margin: 0px;
+}
+
+/* footer styling */
+.page_footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center; 
+}
+/* end of footer styling */

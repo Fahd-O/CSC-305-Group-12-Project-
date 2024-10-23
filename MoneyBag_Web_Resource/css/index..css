@@ -1,0 +1,170 @@
+/* Society Logo Styling */
+.m{
+   color: gold;
+   font-size: 60px;
+}
+
+.b{
+   color: silver;
+   font-size: 60px;
+}
+
+.tm{
+   color: white;
+   font-size: 50px;
+}
+
+.logo{
+   background-color: black;
+   text-align: center;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+/* Society Logo Styling */
+
+/* body styling */
+body{
+   margin: 10px;
+   border: solid gold;
+}
+/* end of body styling */
+
+.we
+{
+
+   text-align: center;
+}
+
+.ad{
+   font-style: oblique;
+   font-size: 70px;
+   color: chocolate;
+   text-align: center;
+}
+
+.subs{
+   text-align: center;
+   font-size: 70px;
+   clear: left;
+}
+
+.firstletter:first-letter{
+    color: green;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+
+/* footer styling */
+.page_footer{
+   text-align: center;
+}
+/* end of footer styling */
+
+
+.notepad{
+   padding: 50px 110px;
+   font-size: 50px;
+   background-color: rgb(236, 232, 167);
+   margin: auto 190px 50px  170px;
+}
+
+/* register button styling */
+.register{ /* Note: this is the default appearance of the link */
+   color: black;
+   font-weight: 500;
+   font-size: 35px;
+   text-decoration: none;
+
+   border-radius: 50px;
+   background-color: rgb(92, 248, 92);
+   padding-top: 30px;
+   padding-right: 60px;
+   padding-bottom: 30px;
+   padding-left: 60px;
+   
+}
+
+.register:hover{
+    color: red;/* Note: Google Chrome ignores this precise attribute, hmmm strange... */
+    text-decoration: underline;
+    font-size: 40px;
+
+    border-radius: 50px;
+    background-color: rgb(129, 253, 129);
+    padding-top: 30px;
+    padding-right: 43%;
+    padding-bottom: 30px;
+    padding-left: 43%;
+ }
+
+ .register:active{
+    color: white;
+    font-size: 55px;
+
+    border-radius: 50px;
+    background-color: black;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+ }
+ /* end of register button styling */
+
+ /* login button styling */
+
+ .login{ /* Note: this is the default appearance of the link */
+   color: black;
+   font-weight: 500;
+   font-size: 35px;
+   text-decoration: none;
+
+   border-radius: 50px;
+   background-color: rgb(0, 153, 255);
+   padding-top: 30px;
+   padding-right: 60px;
+   padding-bottom: 30px;
+   padding-left: 60px;
+   
+}
+
+.login:hover{
+    color: red;/* Note: Google Chrome ignores this precise attribute, hmmm strange... */
+    text-decoration: underline;
+    font-size: 40px;
+
+    border-radius: 50px;
+    background-color: rgb(165, 254, 255);
+    padding-top: 30px;
+    padding-right: 43%;
+    padding-bottom: 30px;
+    padding-left: 43%;
+ }
+
+ .login:active{
+    color: white;
+    font-size: 55px;
+
+    border-radius: 50px;
+    background-color: black;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+ }
+
+ /* end of login button styling */
+
+#text{
+   font-size: 25px;
+   text-align: center;
+ }
+ 
+ .image1{
+    text-align: center;
+ }
+
+ .image0{
+    float:right;
+ }
+ 

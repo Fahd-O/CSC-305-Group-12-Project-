@@ -1,0 +1,153 @@
+/* Society Logo Styling */
+.m{
+    color: gold;
+    font-size: 60px;
+ }
+ 
+ .b{
+    color: silver;
+    font-size: 60px;
+ }
+ 
+ .tm{
+    color: white;
+    font-size: 50px;
+ }
+ 
+ .logo{
+    background-color: black;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+ 
+
+.outline{
+    margin: 10px 10px 10px 10px; 
+    border: solid gold;
+    background-color: rgb(214, 254, 255);
+}
+
+
+.login-box{
+    text-align: center;
+    margin-left: 35%;
+    width: 350px;
+    border: solid gold;
+    
+}
+
+.signup-box{
+    text-align: center;
+    margin-left: 20%;
+    width: 700px;
+    border: solid gold;
+    
+}
+
+.signuperror
+{
+    color: red;
+    font-size: x-large;
+}
+
+.signupsuccess
+{ 
+    color: limegreen;
+    font-size: x-large;
+}
+
+.lrbtn
+{
+    color: white;
+    background-color: rgba(18, 196, 18, 0.692);
+    border: solid thin #aaa;
+    text-decoration: none;
+    padding: 1%;
+    border-radius: 25%;
+}
+
+.un{
+    font-size: 19px;
+}
+
+.pw{
+    font-size: 19px;
+}
+
+.login-signupbutton{
+    border: none;
+    background-color: black;
+    color: white;
+    height: 33px;
+    width: 50%;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.logoutbutton
+{
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 19px;
+}
+
+.homebtn
+{
+    text-decoration:none;
+    font-size:xx-large;
+    margin-left:20px; 
+    color:gold; 
+    background-color:black; 
+    padding:1%; 
+    border-radius: 20px;
+}
+
+.homebtn:hover
+{
+    background-color:gold;
+    color:black;
+}
+
+.header-signup
+{   
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 6px 61px;
+    font-size: 19px;
+}
+
+.login-redirect
+{   
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 6px 61px;
+    font-size: 19px;
+}
+
+.login-status
+{  
+    font-size: x-large;  
+    width: 30%;
+    margin-left: 34%;
+    text-align: center;
+    background-color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 50%;
+}
+
+/* footer styling */
+.page_footer{
+    position: relative;/* this doesn't seem to do anything */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center; 
+    margin-top: 30%;
+}
+/* end of footer styling */
