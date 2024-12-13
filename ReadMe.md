@@ -1,101 +1,105 @@
-# CSC 320 Software Lab Project
+# CSC 305: Web Programming Group Project
+
+## Project Title
+**Web-Enabled Thrift/Cooperative Society Management System**
+
+---
 
 ## Project Overview
+This project was developed as part of the CSC 305 (Web Programming) course during the **3rd year, 1st semester** of our Computer Science program at the **Federal University Oye-Ekiti (FUOYE)**. The task was assigned to a group of **10 members** to collaboratively design and implement a web-based platform for managing thrift/cooperative society operations.
 
-This repository contains my CSC305 Web Programming project, a core course from my third year in university. Although it was assigned as a group project with three members, I completed the entire development independently, with my group members contributing only by testing the final product.
+The project aimed to apply practical knowledge of **web programming technologies** to solve a real-world problem in financial and resource management within small cooperative groups or societies.
 
-The goal was to build a Multiple Choice Question (MCQ) Computer-Based Test (CBT) web application featuring a Fingerprint Biometric Login System. Unfortunately, due to hardware limitations, software constraints, limited knowledge, and time constraints, the fingerprint login feature was not fully implemented. However, a fully functional MCQ CBT application was successfully developed.
+---
 
-This project evolved through five versions:
+## Project Goals
+The primary goals of the project were:
+- To develop a functional **web-based system** for managing thrift/cooperative society activities.
+- To implement **user authentication** for secure access to the platform.
+- To enable features such as **member registration, savings management, loan applications**, and financial records tracking.
+- To ensure a simple and intuitive user interface for both administrators and members.
+- To demonstrate practical application of **HTML, CSS, JavaScript, PHP**, and **MySQL**.
 
-### Frontend-Only
+---
 
-- **Version 1**: Provides a basic interface for taking MCQ tests. Calculates scores at the end of the test.
-- **Version 2**: Further tuned to meet specific project goals with minor enhancements compared to Version 1.
+## Features Implemented
+1. **User Registration and Login**
+   - Secure authentication for members and administrators.
+2. **Member Dashboard**
+   - Overview of individual savings and loan status.
+3. **Admin Dashboard**
+   - Management of member records, financial contributions, and loan applications.
+4. **Savings Contribution Tracking**
+   - Members can view their contributions and total savings.
+5. **Loan Management System**
+   - Request and approval system for loans with records stored in a database.
+6. **Responsive Design**
+   - Ensured basic accessibility and usability on both desktop and mobile devices.
 
-### FullStack
+---
 
-- **Version 1**: A complete MCQ CBT application with full functionality.
-- **Version 2**: Added a login/sign-up system to enhance user access control.
-- **Version 3**: Involved code and folder restructuring for better organization and maintainability.
+## Technologies Used
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Backend**: PHP
+- **Database**: MySQL
+- **Version Control**: Git (optional - include only if version control was used)
 
-The technologies used in this project (PHP, CSS, JavaScript, HTML) were selected based on available resources and commonly used tools. Tutorial videos on YouTube were instrumental in guiding and customizing the application to meet project requirements.
+---
 
-This project was completed between **February 2022 and November 2022**.
+## Installation and Setup
+To run this project locally, follow these steps:
 
-## Table of Contents
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-repo-url/thrift-management-system.git
+   ```
+2. **Set Up the Database**
+   - Import the provided SQL file into your MySQL database.
+   - Update the database configuration in the `config.php` file.
 
-- Project Overview
-- Learning Goals
-- Features
-- Tech Stack
-- Challenges and Solutions
-- How to Run the Project
-- Future Improvements
-- Screenshots
-- Deployment
-- License
+3. **Start the Development Server**
+   - Run a local server using XAMPP, WAMP, or any preferred tool.
+   - Place the project folder in the `htdocs` directory.
 
-## Learning Goals
+4. **Access the Platform**
+   - Open your browser and visit `http://localhost/project-folder`.
 
-This project aimed to:
+---
 
-- Create a Computer Based Test (CBT)
-- Have a fingerprint biometric login system in place for taking exams
-- Uniquely save students' grades to database
-- Have a signup mechanism in place to register new students
-- Make it simple and aesthetic
+## Project Screenshots
+*Include relevant screenshots here:*
+1. **Home Page**
+2. **User Dashboard**
+3. **Admin Panel**
 
-## Features
+---
 
-- Robust login system
-- Simple aesthetic appearance
-- grade storage to database
+## Lessons Learned
+Through this project, we gained hands-on experience with:
+- Designing and structuring **web applications**.
+- Backend development using **PHP** and database integration with **MySQL**.
+- Effective group collaboration and task delegation.
+- Debugging and troubleshooting **common web development errors**.
 
-## Tech Stack
+---
 
-- **HTML5**
-- **CSS3**
-- **JS**
-- **PHP**
-- **MySQL**
-- **XAMPP**
+## Acknowledgments
+We would like to acknowledge our lecturer for CSC 305 for guiding us through this project and providing valuable feedback.
 
-## Challenges and Solutions
-
-Time constraint, lack of resources, insufficient knowledge, lack of support and tutor direction. Managed available resources, seached online, followed relevant youtube tutorial videos
-
-## How to Run the Project
-
-1. Download or clone the repository.
-2. Open the `index.html` file in any modern web browser.
-3. Alternatively, you can view the deployed projects via GitHub Pages.
-
-## Future Improvements
-
-No further updates are planned as this repository serves as an archive of coursework.
-
-## Screenshots
-
-Here are screenshots of the project folder property and fullstack version UI:
-
-![Project Folder Property](./images/CSC320%20Folder%20Property.png)
-![Project UI Screenshot](./images/Screen%20Shot%202022-11-17%20at%2011.14.55%20AM.png)
-![Project UI Screenshot](./images/Screen%20Shot%202022-11-17%20at%2011.15.31%20AM.png)
-![Project UI Screenshot](./images/Screen%20Shot%202022-11-17%20at%2011.15.38%20AM.png)
-![Project UI Screenshot](./images/Screen%20Shot%202022-11-17%20at%2011.15.45%20AM.png)
-![Project UI Screenshot](./images/Screen%20Shot%202022-11-17%20at%2011.15.49%20AM.png)
-![Project UI Screenshot](./images/Screen%20Shot%202022-11-17%20at%2011.17.20%20AM.png)
-![Project UI Screenshot](./images/Screen%20Shot%202022-11-17%20at%2011.17.35%20AM.png)
-![Project UI Screenshot](./images/Screen%20Shot%202022-11-17%20at%2011.18.57%20AM.png)
-
-## Deployment
-
-Check out GitPage deployment for the Frontend version 1 & 2 here:
-
-- [Frontend version 1](https://fahd-o.github.io/CSC-320-Software-Lab/Frontend/Customized-Version-1/)
-- [Frontend version 2](https://fahd-o.github.io/CSC-320-Software-Lab/Frontend/Customized-Version-2/)
+---
 
 ## License
+This project is for educational purposes only and is not intended for commercial use.
 
-This project ordinarily shouldn't be needing a license, but if for any reason you'll be needing it, it is free to use.
+---
+
+## Contact
+For any inquiries or suggestions, feel free to contact:
+- **Your Name**
+- **Email**: [your-email@example.com]
+- **GitHub**: [your-github-profile-url]
+
+---
+
+*Feel free to expand this README with additional technical details, screenshots, or credits.*
+
