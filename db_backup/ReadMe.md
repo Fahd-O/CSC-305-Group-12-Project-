@@ -15,8 +15,3 @@ This folder contains the SQL backup file for the project database. Follow the in
    mysql -u username -p database_name < MoneyBag_.sql
 
 3. Replace username and database_name with your database credentials.
-
-## Requirements
-
-MySQL version: X.X (adjust based on compatibility) <!-- Check back here later -->
-Ensure you have the necessary permissions to create and modify tables.
