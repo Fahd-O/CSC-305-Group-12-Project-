@@ -3,7 +3,7 @@
 //set connection variables
 $host='localhost';
 $username='root';
-$password='root';
+$password='';
 $database_name= 'ega';
 
 //connection to server & database
