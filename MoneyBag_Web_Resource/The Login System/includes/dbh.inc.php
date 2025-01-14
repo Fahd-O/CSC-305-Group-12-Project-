@@ -2,8 +2,8 @@
 
 $servername = "localhost";
 $dBUsername = "root";
-$dBPassword = "root";
-$dBName = "MoneyBag.";
+$dBPassword = "";
+$dBName = "moneybag";
 
 $conn = mysqli_connect($servername, $dBUsername, $dBPassword, $dBName);
 
