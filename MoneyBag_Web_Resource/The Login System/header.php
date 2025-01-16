@@ -28,7 +28,7 @@
             
                 <?php
                     #some profile codes implemented from Bro Ibrahim(Algorithm)
-                    if(isset($_SESSION['userId']))
+                    if(isset($_SESSION['userId'])) //User logged in block
                     {
                         $servername = "localhost";
                         $dBUsername = "root";
@@ -62,7 +62,7 @@
 
                        </form>';
                     }
-                    else
+                    elseif (isset($_GET['error'])) //Error handling block
                     {
                         if($_GET['error'] == "emptyfields")
                         {
@@ -81,6 +81,36 @@
                             echo '<p style="text-align: center; font-size: x-large; color:red">Incorrect password !</p>';
                         }
 
+                        echo '<p class="login-status">You are logged out !</p>
+                        <div class="login-box">
+                        
+                            <form action="includes/login.inc.php"       method="POST">
+                            <h1 style="text-align: center; font-size: xx-large">
+                                Login 
+                            </h1>
+                            <p style="font-size: x-large;"> 
+                                Enter your username and password to login...
+                            </p>
+                            <p>
+                                <label for="Username" class="un">Username:</label> 
+                                <input type="text" name="mailuid" placeholder="Username/E-mail...">
+                            </p>
+                            <p>
+                                <label for="User Password" class="pw">Password:</label> 
+                                <input type="password" name="pwd" placeholder="Password">
+                            </p>
+
+                            <button type="submit" name="login-submit" class="login-signupbutton" >Login</button>
+
+                            </form>
+
+                            Don‛t have an account yet ?<br><br> 
+                            <a href="signUp.php" class="header-signup">Signup</a><br><br>
+
+                        </div>';
+                    }
+                    else //default block
+                    {
                         echo '<p class="login-status">You are logged out !</p>
                         <div class="login-box">
                         
