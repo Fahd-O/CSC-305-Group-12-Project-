@@ -81,13 +81,16 @@
                                     echo '<p class="signuperror">Critical SQL error encountered !</p>'.$fields;
                                 }
                             }
-                            elseif($_GET['signup'] == "success")
+                            elseif(isset($_GET['signup']))
                             {
-                                echo '<p class="signupsuccess">Signup Successful !</p>
+                                if($_GET['signup'] == "success")
+                                {
+                                    echo '<p class="signupsuccess">Signup Successful !</p>
                                 <p>You can now login with your details on the login page</p>
 
                                 <p>
                                 <a class="lrbtn" href="index.php"> Ok </a> </p>';
+                                }
                             }
                             else
                             {
