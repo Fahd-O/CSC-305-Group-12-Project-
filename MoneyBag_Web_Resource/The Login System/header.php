@@ -34,7 +34,7 @@
                         $dBUsername = "root";
                         $dBPassword = "";
                         $dBType = "mysql";
-                        $dBName = "MoneyBag.";
+                        $dBName = "moneybag";
 
                         $string = $dBType . ":host=". $servername .";dbname=". $dBName;
                         $conn = new PDO($string,$dBUsername,$dBPassword);
