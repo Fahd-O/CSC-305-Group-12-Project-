@@ -16,7 +16,8 @@ if (isset($_POST['signup-submit']))
 
         exit();
     }
-    elseif (!filter_var($email, 'FILTER_VALIDATE_EMAIL') && !preg_match("/^[a-zA-Z0-9\s]*$/", $username))
+    //This "FILTER_VALIDATE_EMAIL" was in quotation marks before, an error was thrown, so I now had to remove the quotation marks, perhaps that was due to change in PHP version or something else.
+    elseif (!filter_var($email, FILTER_VALIDATE_EMAIL) && !preg_match("/^[a-zA-Z0-9\s]*$/", $username))
     {
         header("Location: ../signup.php?error=invaliduidmail"); 
 
