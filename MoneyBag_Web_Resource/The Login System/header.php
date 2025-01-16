@@ -32,7 +32,7 @@
                     {
                         $servername = "localhost";
                         $dBUsername = "root";
-                        $dBPassword = "root";
+                        $dBPassword = "";
                         $dBType = "mysql";
                         $dBName = "MoneyBag.";
 
