@@ -17,12 +17,8 @@
     
     <header>
         <nav class="nav-header-main">
-           
             
-            <ul>
-            <li><a href="..\index.php" style="text-decoration:none; font-size:x-large">Home</a></li>
-                
-            </ul>
+            <br><br><a href="..\index.php" class="homebtn">• Home</a><br>
             
             <div class="signup-box">
                 <main>
