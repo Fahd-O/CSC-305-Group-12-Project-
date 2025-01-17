@@ -72,6 +72,10 @@
                                 {
                                     echo '<p class="signuperror">Username is already taken !</p>'.$fields;
                                 }
+                                elseif($_GET['error'] == "emailtaken")
+                                {
+                                    echo '<p class="signuperror">E-mail is already taken !</p>'.$fields;
+                                }
                                 elseif($_GET['error'] == "sqlerror")
                                 {
                                     echo '<p class="signuperror">Critical SQL error encountered !</p>'.$fields;

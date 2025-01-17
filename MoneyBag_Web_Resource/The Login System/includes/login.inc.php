@@ -15,7 +15,7 @@ if (isset($_POST['login-submit']))
     }
     else
     {
-        $sql = "SELECT * FROM MoneyBag_Registered_User_Info_Table WHERE uidUsers=?;";
+        $sql = "SELECT * FROM MoneyBag_Registered_User_Info_Table WHERE uidUsers=? OR emailUsers=?;";
         $stmt = mysqli_stmt_init($conn);
 
         if(!mysqli_stmt_prepare($stmt, $sql))
@@ -26,7 +26,10 @@ if (isset($_POST['login-submit']))
         }
         else
         {
-            mysqli_stmt_bind_param($stmt, "s", $mailuid);
+            // Bind two parameters for the query
+            mysqli_stmt_bind_param($stmt, "ss", $mailuid, $mailuid);
+
+            // Execute the statement
             mysqli_stmt_execute($stmt);
 
             $result = mysqli_stmt_get_result($stmt);

@@ -119,11 +119,11 @@
                                 Login 
                             </h1>
                             <p style="font-size: x-large;"> 
-                                Enter your username and password to login...
+                                Enter your username/email and password to login...
                             </p>
                             <p>
                                 <label for="Username" class="un">Username:</label> 
-                                <input type="text" name="mailuid" placeholder="Username/E-mail...">
+                                <input type="text" name="mailuid" placeholder="Username/E-mail">
                             </p>
                             <p>
                                 <label for="User Password" class="pw">Password:</label> 

@@ -45,7 +45,11 @@ if (isset($_POST['signup-submit']))
     {
         $sql = "SELECT uidUsers FROM MoneyBag_Registered_User_Info_Table WHERE uidUsers=?";
         $stmt = mysqli_stmt_init($conn);
-        if (!mysqli_stmt_prepare($stmt, $sql))
+
+        $sql2 = "SELECT emailUsers FROM MoneyBag_Registered_User_Info_Table WHERE emailUsers=?";
+        $stmt2 = mysqli_stmt_init($conn);
+
+        if (!mysqli_stmt_prepare($stmt, $sql) || !mysqli_stmt_prepare($stmt2, $sql2))
         {
             header("Location: ../signup.php?error=sqlerror"); 
 
@@ -57,9 +61,21 @@ if (isset($_POST['signup-submit']))
             mysqli_stmt_execute($stmt);
             mysqli_stmt_store_result($stmt);
             $resultcheck = mysqli_stmt_num_rows($stmt);
+
+            mysqli_stmt_bind_param($stmt2, "s", $email);
+            mysqli_stmt_execute($stmt2);
+            mysqli_stmt_store_result($stmt2);
+            $resultcheck2 = mysqli_stmt_num_rows($stmt2);
+
             if ($resultcheck > 0)
             {
                 header("Location: ../signup.php?error=usertaken&mail=".$email); 
+
+                exit();
+            }
+            elseif ($resultcheck2 > 0)
+            {
+                header("Location: ../signup.php?error=emailtaken&uid=".$username); 
 
                 exit();
             }
