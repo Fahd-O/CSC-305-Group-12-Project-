@@ -8,7 +8,7 @@ This project was developed as part of the CSC 305 (Web Programming) course durin
 
 The project aimed to apply practical knowledge of **web programming technologies** to solve a real-world problem in financial and resource management within small cooperative groups or societies.
 
-Created and completed between ? and ?.
+Created and completed between 18th Nov 2021 and 22nd Feb 2022.
 
 ## Project Goals
 
@@ -46,7 +46,7 @@ The primary goals of the project were:
 
 Here's a screenshots of the project folder properties:
 
-![Project Folder Properties Screenshot](./img/CSC-305-Project)
+![Project Folder Properties Screenshot](./img/CSC-305-Project-Folder-Properties-SS.png)
 
 ## Lessons Learned
 
